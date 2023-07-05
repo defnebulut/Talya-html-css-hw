@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap");
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.headerTop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: dotted 1px #000;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.social > ul {
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social > ul > li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.social > ul > li:last-child {
+  margin-right: 0;
+}
+
+.phone > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.phone > a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.headerBottom {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+
+.headerBottom > ul {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+
+.headerBottom > ul > li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.headerBottom > ul > li > a {
+  text-decoration: none;
+}
+
+.headerBottom > ul > li > a:hover {
+  color: #e31215;
+}
+
+a {
+  color: #333;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin: 15px 0;
+  background-image: url("https://htmldemo.net/christ/christ/img/section-title-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.product-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.item-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-img {
+  width: 100%;
+  position: relative;
+}
+
+.product-img > img {
+  width: 100%;
+}
+
+.new {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 100%;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.product-name {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+
+.product-cat {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 15px;
+}
+
+.blog-content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.blog-img {
+  width: 100%;
+}
+
+.blog-img > img {
+  width: 100%;
+}
+
+.blog-publish-date {
+  font-size: 10px;
+  color: #24a2cc;
+  margin: 10px 0;
+}
+
+.blog-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-text {
+  font-size: 10px;
+  color: gray;
+}
+
+.content-title {
+  width: 100%;
+  background-image: url(https://htmldemo.net/christ/christ/img/hero/1.jpg);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content-title h1 {
+  color: #fff;
+  text-shadow: 1px 0px 5px #000;
+}
+
+.content p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.contact-us-background {
+  background-image: url(https://htmldemo.net/christ/christ/img/hero/2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    width: 100%;
+  }
+
+  .product-item {
+    width: 100%;
+  }
+
+  .blog-item {
+    width: 100%;
+  }
+}
+footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 300px;
+}
+.footer-container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #fff;
+  padding-bottom: 10px;
+}
+.links {
+  flex-basis: calc(66.66% - 10px);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: large;
+}
+
+.logo-about {
+    flex-basis: calc(33.33% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.logo-about p {
+    text-align: center;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.links ul li {
+    margin: 10px 10px 10px 70px;
+}
+.links ul li :last-child {
+    margin: 10px 0px 10px 70px;
+}
+
+.footerBottom {
+    text-align: center;
+    color: #fff;
+}
+.sub ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+  
+  .sub ul a {
+    color: #fff;
+  }
+  .sub > ul > li{
+    margin: 3px 10px 8px 0px;
+  }
+  @media screen and (max-width: 600px) {
+    footer{
+        width: 100%;
+        height: auto;
+        margin:0;
+    }
+    .footer-container {
+        width: 100%;
+        height: auto;
+        margin:0;
+      }
+    
+      .footerTop {
+        flex-wrap: wrap;
+      }
+    
+      .links {
+        flex-basis: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    
+      .links ul li,
+      .links ul li:last-child {
+        margin: 10px 0;
+      }
+    
+      .sub > ul > li {
+        margin: 5px 0;
+        
+      }
+    
+      .logo-about {
+        flex-basis: 100%;
+        text-align: center;
+      }
+  }
